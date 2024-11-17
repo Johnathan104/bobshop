@@ -1,7 +1,7 @@
 <div class="container">
         <h1>Tambah Gejala</h1>
         <div class="bg-dark text-white p-3 my-3 py-5 rounded" id="gejala_addBox">
-        <form>
+        <form action="./backend/addGejala.php">
             <div class="mb-3">
                 <label for="gejala_nama" class="form-label">Nama Gejala</label>
                 <input type="text" class="form-control" id="gejala_nama">
@@ -13,7 +13,7 @@
         </div>
     <div class="container">
         <h1>Tambah Masalah</h1>
-        <div class="bg-dark text-white p-3 my-3 py-5 rounded" id="gejala_addBox">
+        <div class="bg-dark text-white p-3 my-3 py-5 rounded" id="masalah_addBox">
         <form>
 
             <div class="mb-3">
@@ -27,7 +27,7 @@
     </div>
     <div class="container">
         <h1>Tambah Rule</h1>
-        <div class=" text-dark p-3 my-3 py-5 rounded" id="gejala_addBox">
+        <div class=" text-dark p-3 my-3 py-5 rounded" id="rules_addBox">
         <form>
 
             <div class="mb-3">

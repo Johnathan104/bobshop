@@ -19,6 +19,11 @@
                 </div>
             </div>
 </div>
+    <div id="tablesSection" class="container hidden">
+        <?php include "./backend/tableGejala.php"?>
+        <?php include "./backend/tableRules.php"?>
+        <?php include "./backend/tableMasalah.php"?>
+    </div>
     <div class="hidden" id="addSection">
         <?php include "./sections/addSection.php"?>
     </div>
