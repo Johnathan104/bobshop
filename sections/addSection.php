@@ -11,7 +11,6 @@
             </div>
         </form>
         </div>
-    </div>
     <div class="container">
         <h1>Tambah Masalah</h1>
         <div class="bg-dark text-white p-3 my-3 py-5 rounded" id="gejala_addBox">

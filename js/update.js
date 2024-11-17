@@ -1,4 +1,13 @@
 $(document).ready(function () {
+    $("#updateSection").hide();
+    $("#add_button").click(()=>{
+        $("#addSection").show();
+        $("#updateSection").hide();
+    })
+    $("#update_button").click(()=>{
+        $("#addSection").hide();
+        $("#updateSection").show();
+    })
     // for choosing 
     $("#gejala_select").change(function () { 
         $.ajax({

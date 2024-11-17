@@ -30,7 +30,6 @@
             </div>
         </form>
         </div>
-    </div>
     <div class="container">
         <h1>Update Masalah</h1>
         <div class="bg-dark text-white p-3 my-3 py-5 rounded" id="masalah_updateBox">
@@ -62,7 +61,7 @@
         </div>
     </div>
     <div class="container">
-        <h1>Tambah Rule</h1>
+        <h1>Update Rule</h1>
         <div class=" text-dark p-3 my-3 py-5 rounded" id="rule_updateBox">
         <form>
             <div class="mb-3">

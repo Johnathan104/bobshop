@@ -11,17 +11,18 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center ">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Welcome</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Please login to access more features.</h2>
-                        <a class="btn btn-primary" href="#login">Get Started</a>
+                        <h1 class="mx-auto my-0 text-uppercase">Admin section</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">What do you want to do?.</h2>
+                        <a class="btn btn-primary" id="add_button">Add</a>
+                        <a class="btn btn-secondary" id="update_button">Update</a>
                     </div>
                 </div>
             </div>
 </div>
-    <div>
+    <div class="hidden" id="addSection">
         <?php include "./sections/addSection.php"?>
     </div>
-    <div>
+    <div class ="hidden" id="updateSection">
         <?php include "./sections/updateSection.php"?>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

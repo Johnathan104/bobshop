@@ -17,7 +17,10 @@ body{
     transform:translateX(0%);
     opacity:1;
 }
-
+#updateSection{
+    transition:1s all ease-in-out;
+    opacity: 0;
+}
 
 
 .about-content:nth-child(2){
