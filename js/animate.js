@@ -12,10 +12,14 @@ $(document).ready(function() {
     })
     const hiddenElements = document.querySelectorAll(".hidden")
     const masterElement = document.querySelectorAll(".hidden-head")
+    const fadeElements = document.querySelectorAll(".hidden-fade")
     hiddenElements.forEach(element=>{
         observer.observe(element)
     })
     masterElement.forEach(element=>{
+        observer.observe(element)
+    })
+    fadeElements.forEach(element=>{
         observer.observe(element)
     })
 });

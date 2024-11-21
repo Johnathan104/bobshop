@@ -28,12 +28,12 @@
         <?php include "./backend/tableMasalah.php"?>
     </div>
     <div id="addSection">
-        <div class ="hidden">
+        <div class ="hidden-fade">
             <?php include "./sections/addSection.php"?>
         </div>
     </div>
     <div  id="updateSection">
-        <div class ="hidden">
+        <div class ="hidden-fade">
             <?php include "./sections/updateSection.php"?>
         </div>
     </div>

@@ -7,8 +7,11 @@ body{
     transform: translateY(100%);
     transition:1s all ease-in-out;
 }
+.hidden-fade{
+    opacity:0;
+    transition: 1s all ease-in-out;
+}
 .hidden{
-    
     opacity:0;
     transform:translateX(100%);
     transition: 1s all ease-in-out;
@@ -19,7 +22,6 @@ body{
 }
 #updateSection{
     transition:1s all ease-in-out;
-    opacity: 0;
 }
 
 
