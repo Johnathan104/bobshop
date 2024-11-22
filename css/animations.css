@@ -7,8 +7,16 @@ body{
     transform: translateY(100%);
     transition:1s all ease-in-out;
 }
+<<<<<<< HEAD
 .hidden{
     
+=======
+.hidden-fade{
+    opacity:0;
+    transition: 1s all ease-in-out;
+}
+.hidden{
+>>>>>>> accccec839be48e0e0ebde625c829670f98ec6b1
     opacity:0;
     transform:translateX(100%);
     transition: 1s all ease-in-out;

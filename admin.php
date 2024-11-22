@@ -28,10 +28,14 @@
         <?php include "./backend/tableMasalah.php"?>
     </div>
     <div id="addSection">
+        <div class ="hidden-fade">
             <?php include "./sections/addSection.php"?>
+        </div>
     </div>
-    <div id="updateSection">
+    <div  id="updateSection">
+        <div class ="hidden-fade">
             <?php include "./sections/updateSection.php"?>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->

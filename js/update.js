@@ -1,14 +1,24 @@
 $(document).ready(function () {
+<<<<<<< HEAD
     $("#add_button").click(()=>{
         $("#addSection").show();
         $("#updateSection").hide();
         console.log( $("#updateSection").html())
+=======
+    $("#updateSection").hide();
+    $("#add_button").click(()=>{
+        $("#addSection").show();
+        $("#updateSection").hide();
+>>>>>>> accccec839be48e0e0ebde625c829670f98ec6b1
     })
     $("#update_button").click(()=>{
         $("#addSection").hide();
         $("#updateSection").show();
+<<<<<<< HEAD
         console.log( $("#addSection").html())
 
+=======
+>>>>>>> accccec839be48e0e0ebde625c829670f98ec6b1
     })
     // for choosing 
     $("#gejala_select").change(function () { 

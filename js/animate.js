@@ -12,10 +12,20 @@ $(document).ready(function() {
     })
     const hiddenElements = document.querySelectorAll(".hidden")
     const masterElement = document.querySelectorAll(".hidden-head")
+<<<<<<< HEAD
+=======
+    const fadeElements = document.querySelectorAll(".hidden-fade")
+>>>>>>> accccec839be48e0e0ebde625c829670f98ec6b1
     hiddenElements.forEach(element=>{
         observer.observe(element)
     })
     masterElement.forEach(element=>{
         observer.observe(element)
     })
+<<<<<<< HEAD
+=======
+    fadeElements.forEach(element=>{
+        observer.observe(element)
+    })
+>>>>>>> accccec839be48e0e0ebde625c829670f98ec6b1
 });
