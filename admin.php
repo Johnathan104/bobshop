@@ -19,7 +19,7 @@
                 </div>
             </div>
 </div>
-    <div id="tablesSection" class="container my-5 hidden">
+    <div id="tables" class="container my-5 hidden">
         <h1 class="mt-3"> Table Gejala</h1>
         <?php include "./backend/tableGejala.php"?>
         <h1 class="mt-3">Table Rules</h1>
@@ -34,7 +34,7 @@
         </div>
     </div>
     
-    <div  id="updateSection">
+    <div id="updateSection">
             <?php include "./sections/updateSection.php"?>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

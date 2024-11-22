@@ -1,11 +1,11 @@
 <script src="./js/update.js"></script>
 <div class="container">
-        <h1>Update Gejala</h1>
-        <div class="bg-dark text-white p-3 my-3 py-5 rounded" id="gejala_updateBox">
-        <form>
+    <h1>Update Gejala</h1>
+    <div class="bg-dark text-white p-3 my-3 py-5 rounded" id="gejala_updateBox">
+        <form method="POST" action="updateGejala">
             <div class="mb-3">
                 <p class="text-dark-50">Pilih gejala</p>
-                <select id="gejala_select" class="form-select" aria-label="Default select example">
+                <select name="gejala_select" id="gejala_select" class="form-select" aria-label="Default select example">
                         <?php
                             $stmt = $conn->prepare("SELECT * FROM gejala");
                             $stmt->execute();
@@ -22,14 +22,13 @@
 
             <div class="mb-3">
                 <label for="update_gejala_nama" class="form-label">Nama Gejala</label>
-                <input type="text" class="form-control" id="update_gejala_nama">
+                <input  type="text" class="form-control" id="update_gejala_nama">
             </div>
-            <button type="submit" class="btn btn-primary">Update</button>
-            <button class="btn btn-danger"> Delete </button>
-
-            </div>
+            <button id="btnUpdateGejala" type="submit" class="btn btn-primary">Update</button>
+            <button id="btnDeleteGejala" class="btn btn-danger"> Delete </button>
         </form>
-        </div>
+    </div>
+</div>
     <div class="container">
         <h1>Update Masalah</h1>
         <div class="bg-dark text-white p-3 my-3 py-5 rounded" id="masalah_updateBox">
@@ -55,8 +54,8 @@
                 <input type="text" class="form-control" id="update_masalah_nama">
             </div>
 
-            <button type="submit" class="btn btn-primary">Update</button>
-            <button class="btn btn-danger"> Delete </button>
+            <button id="btnUpdateMasalah" type="submit" class="btn btn-primary">Update</button>
+            <button id="btnDeleteMasalah"class="btn btn-danger"> Delete </button>
         </form>
         </div>
     </div>
@@ -100,8 +99,8 @@
                 </select>
             </div>
 
-            <button type="submit" class="btn btn-primary">Update</button>
-            <button class="btn btn-danger"> Delete </button>
+            <button id="btnUpdateRule" type="submit" class="btn btn-primary">Update</button>
+            <button id="btnDeleteRule" class="btn btn-danger"> Delete </button>
         </form>
         </div>
     </div>
