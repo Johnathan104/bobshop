@@ -14,7 +14,7 @@
                         <h1 class="mx-auto my-0 text-uppercase">Admin section</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">What do you want to do?.</h2>
                         <a class="btn btn-primary" href="#addSection"id="add_button">Add</a>
-                        <a class="btn btn-warning" href="#updateSection"id="update_button">Update</a>
+                        <a class="btn btn-warning" href="#updateSection" id="update_button">Update</a>
                     </div>
                 </div>
             </div>
@@ -27,15 +27,15 @@
         <h1 class="mt-3">Table Masalah</h1>
         <?php include "./backend/tableMasalah.php"?>
     </div>
+    
     <div id="addSection">
         <div class ="hidden-fade">
             <?php include "./sections/addSection.php"?>
         </div>
     </div>
+    
     <div  id="updateSection">
-        <div class ="hidden-fade">
             <?php include "./sections/updateSection.php"?>
-        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->

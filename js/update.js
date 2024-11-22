@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    $("#updateSection").hide();
     $("#add_button").click(()=>{
         $("#addSection").show();
         $("#updateSection").hide();
