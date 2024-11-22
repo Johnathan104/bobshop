@@ -19,7 +19,7 @@
                 </div>
             </div>
 </div>
-    <div id="tables" class="container my-5 hidden">
+    <div id="tables" class="container my-5">
         <h1 class="mt-3"> Table Gejala</h1>
         <?php include "./backend/tableGejala.php"?>
         <h1 class="mt-3">Table Rules</h1>
